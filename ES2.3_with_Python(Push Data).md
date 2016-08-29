@@ -39,3 +39,5 @@ for doc in df_json:
 curl 'localhost:9200/_cat/indices?v'
 curl -X GET 'http://localhost:9200/python_to_elastic/pyelastic/1'
 ```
+
+https://github.com/rippleblue/CloudServer/blob/master/Elasticsearch.md
