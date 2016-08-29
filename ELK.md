@@ -35,3 +35,4 @@ sudo chmod +x /etc/init.d/kibana
 sudo update-rc.d kibana defaults 96 9
 sudo service kibana start
 ```
+https://www.digitalocean.com/community/tutorials/how-to-install-elasticsearch-logstash-and-kibana-elk-stack-on-ubuntu-14-04
