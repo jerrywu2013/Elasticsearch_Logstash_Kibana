@@ -19,7 +19,7 @@ sudo pip install pyes
 ```
 import pandas as pd 
 import numpy as np 
-import pyes # For documentation around pyes.es : https://pyes.readthedocs.org/en/latest/references/pyes.es.html
+import pyes 
 import json
 df = pd.read_csv("pyestest.csv",sep=";",decimal=".")
 df["no_index"] = [x+1 for x in range(len(df["id"]))]
