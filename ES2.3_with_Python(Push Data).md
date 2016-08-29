@@ -43,4 +43,5 @@ curl -X GET 'http://localhost:9200/python_to_elastic/pyelastic/1'
 https://github.com/rippleblue/CloudServer/blob/master/Elasticsearch.md
 
 Relational DB -> Databases -> Tables -> Rows -> Columns
+
 Elasticsearch -> Indices   -> Types  -> Documents -> Fields
