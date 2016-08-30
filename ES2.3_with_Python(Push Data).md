@@ -26,7 +26,7 @@ df = pd.read_csv("pyestest.csv",sep=";",decimal=".")
 df["no_index"] = [x+1 for x in range(len(df["id"]))]
 tmp = df.to_json(orient = "records")
 df_json= json.loads(tmp)
-print df_json[0]
+print (df_json[0])
 index_name = 'python_to_elastic'
 type_name = 'pyelastic'
 es= pyes.ES()
