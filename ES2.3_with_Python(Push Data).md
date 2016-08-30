@@ -12,8 +12,9 @@ id;product;client;tag
 ```
 sudo apt-get -y install python-numpy
 sudo apt-get -y build-dep python-lxml
-sudo pip install pandas
-sudo pip install pyes
+sudo apt-get install python3-pip
+sudo pip3 install pandas
+sudo pip3 install pyes
 ```
 ####Push data into ES
 ```
