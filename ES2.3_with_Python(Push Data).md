@@ -10,8 +10,8 @@ id;product;client;tag
 ```
 ####Install Pandas, Pyes, Numpy
 ```
-sudo apt-get install python-numpy
-sudo apt-get build-dep python-lxml
+sudo apt-get -y install python-numpy
+sudo apt-get -y build-dep python-lxml
 sudo pip install pandas
 sudo pip install pyes
 ```
