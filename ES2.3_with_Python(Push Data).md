@@ -12,7 +12,7 @@ id;product;client;tag
 ```
 sudo apt-get -y install python-numpy
 sudo apt-get -y build-dep python-lxml
-sudo apt-get install python3-pip
+sudo apt-get -y install python3-pip
 sudo pip3 install pandas
 sudo pip3 install pyes
 ```
