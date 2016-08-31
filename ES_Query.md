@@ -1,15 +1,9 @@
 ```
-curl -XGET 'localhost:9200/python_to_e/pyes/1?pretty' -d '
+curl -X GET 'http://localhost:9200/python_to_elastic/pyelastic/_search?pretty' -d '
 {
-    "query": {
-        "wildcard" : {
-            "name" : "台南*"
-        }
-    },
-    "_source": ["name", "address"],
-    "highlight": {
-        "fields" : {
-            "authors" : {}
+    "query" : {
+        "match" : {
+            "name" : "和平東路三段"
         }
     }
 }'
