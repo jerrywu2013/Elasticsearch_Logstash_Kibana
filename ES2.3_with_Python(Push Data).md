@@ -41,7 +41,7 @@ curl -X GET 'http://localhost:9200/python_to_elastic/pyelastic/1?pretty'
 curl -X GET 'http://localhost:9200/python_to_elastic/pyelastic/_search?pretty'
 ```
 
-https://github.com/rippleblue/CloudServer/blob/master/Elasticsearch.md
+https://github.com/jerrywu2013/CloudServer/blob/master/Elasticsearch.md
 
 Relational DB -> Databases -> Tables -> Rows -> Columns
 
