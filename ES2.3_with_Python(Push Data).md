@@ -46,3 +46,6 @@ https://github.com/jerrywu2013/CloudServer/blob/master/Elasticsearch.md
 Relational DB -> Databases -> Tables -> Rows -> Columns
 
 Elasticsearch -> Indices   -> Types  -> Documents -> Fields
+
+##### Basic
+IP/navi/navi_address/_search?q=name:中國醫藥大學
